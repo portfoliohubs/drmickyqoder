@@ -1,0 +1,184 @@
+baseURL = "https://portfoliohubs.github.io/mickyqoder/"
+languageCode = "en-us"
+title = "Dental Portfolio"
+defaultContentLanguage = "en"
+
+[params.auth]
+code_hash = "ph_0"
+username = "mickyqoder"
+updated_at = "2026-10-18T06:29:04.207Z"
+
+[params.hero]
+name = ""
+tagline = "Dentist & Oral Surgeon"
+graduation = "Graduated 2026 - Faculty of Dentistry"
+profile_image = ""
+profile_image_alt = "Profile photo of "
+
+[params.hero.current_position]
+role = "General Dental Practitioner"
+clinic = "Dental Clinic"
+
+[params.seo]
+description = "Professional dental portfolio of "
+doctor_name_en = ""
+doctor_name_ar = ""
+site_name = ""
+og_image = ""
+favicon_image = ""
+keywords = [ "dentist", "dental clinic", "cosmetic dentistry", "restorative dentistry", "" ]
+keywords_ar = [ "طبيب أسنان", "عيادة أسنان", "تجميل الأسنان", "ترميم الأسنان", "" ]
+
+[params.ui.nav]
+profile = "Profile"
+skills = "Skills"
+education = "Education"
+clinical_cases = "Clinical Cases"
+cases_short = "Cases"
+contact = "Contact"
+
+[params.ui.skills]
+title = "Professional Skills"
+clinical_title = "Clinical Skills"
+digital_title = "Digital Skills"
+soft_title = "Soft Skills"
+
+[params.ui.education]
+title = "Education & Timeline"
+graduated_label = "Graduated"
+career_timeline_title = "Career Timeline"
+courses_title = "Courses & Certifications"
+
+[params.ui.cases]
+title = "Clinical Cases"
+subtitle = "Clinical Cases Gallery"
+
+[params.ui.contact]
+title = "Get In Touch"
+subtitle = "Let's connect and collaborate"
+follow_me_title = "Follow Me"
+
+[params.ui.labels]
+now_working_as = "Now working as"
+at = "at"
+phone = "Phone"
+whatsapp = "WhatsApp"
+email = "Email"
+location = "Location"
+get_directions = "Get Directions"
+rights_reserved = "All rights reserved"
+masters_degree = "Master's Degree"
+phd_degree = "PhD Degree"
+
+[params.skills]
+clinical = [ "Cosmetic Dentistry", "Endodontics", "Fixed Prosthodontics", "Oral Surgery" ]
+digital = [ "Digital Documentation", "Smile Design", "Dental Portfolio" ]
+soft = [ "Patient Communication", "Treatment Planning", "Time Management" ]
+
+[params.education]
+university = "Faculty of Dentistry"
+graduation_year = "2026"
+
+[[params.education.timeline]]
+year = "2026"
+event = "Graduated from Faculty of Dentistry"
+
+[[params.education.timeline]]
+year = "2026"
+event = "Clinical Practitioner at Dental Clinic"
+
+[[params.education.timeline]]
+year = ""
+event = ""
+
+[[params.clinical_cases]]
+enabled = true
+category = "Cosmetic Dentistry"
+category_ar = "تجميل الأسنان"
+
+[[params.clinical_cases.cases]]
+photo = "images/cosmetic-dentistry-1/case1.webp"
+alt = ""
+description = ""
+alt_ar = "1"
+description_ar = ""
+
+[params.contact]
+phone = ""
+whatsapp = ""
+email = ""
+instagram = ""
+facebook = ""
+linkedin = ""
+
+[params.contact.location]
+enabled = false
+address = ""
+
+[params.ar.hero]
+name = ""
+tagline = "طبيب وجراح الفم والأسنان"
+graduation = "تخرج 2026 - كلية طب الأسنان"
+profile_image_alt = "صورة الملف الشخصي لـ "
+
+[params.ar.hero.current_position]
+role = "طبيب أسنان عام"
+clinic = "عيادة الأسنان التخصصية"
+
+[params.ar.skills]
+clinical = [ "طب الأسنان التجميلي", "علاج العصب والجذور", "التركيبات الثابتة", "جراحة الفم" ]
+digital = [ "التوثيق الرقمي", "تصميم الابتسامة", "البورتفوليو الإكلينيكي" ]
+soft = [ "التواصل مع المرضى", "تخطيط العلاج", "إدارة الوقت" ]
+
+[params.ar.education]
+university = "كلية طب الأسنان"
+
+[[params.ar.education.timeline]]
+event = "التخرج من كلية طب الأسنان"
+
+[[params.ar.education.timeline]]
+event = "طبيب ممارس في عيادة الأسنان التخصصية"
+
+[params.ar.contact.location]
+address = ""
+
+[params.ar.ui.nav]
+profile = "الملف الشخصي"
+skills = "المهارات"
+education = "التعليم"
+clinical_cases = "الحالات الإكلينيكية"
+cases_short = "الحالات"
+contact = "التواصل"
+
+[params.ar.ui.skills]
+title = "المهارات المهنية"
+clinical_title = "المهارات الإكلينيكية"
+digital_title = "المهارات الرقمية"
+soft_title = "المهارات الشخصية"
+
+[params.ar.ui.education]
+title = "التعليم والخط الزمني"
+graduated_label = "تخرج"
+career_timeline_title = "الخط الزمني المهني"
+courses_title = "الدورات والشهادات"
+
+[params.ar.ui.cases]
+title = "الحالات الإكلينيكية"
+subtitle = "معرض الحالات الإكلينيكية"
+
+[params.ar.ui.contact]
+title = "تواصل معي"
+subtitle = "لنتواصل ونتعاون"
+follow_me_title = "تابعني"
+
+[params.ar.ui.labels]
+now_working_as = "أعمل حالياً ك"
+at = "في"
+phone = "الهاتف"
+whatsapp = "واتساب"
+email = "البريد"
+location = "الموقع"
+get_directions = "احصل على الاتجاهات"
+rights_reserved = "جميع الحقوق محفوظة"
+masters_degree = "درجة الماجستير"
+phd_degree = "درجة الدكتوراه"
